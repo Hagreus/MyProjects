@@ -8,7 +8,7 @@
 # Quit the program
 
 class Inventory:
-
+    
     def __init__(self):
         self.inventory = []
 
@@ -75,7 +75,9 @@ class Inventory:
 
 if __name__ == '__main__':
     first = Inventory()
-
+    
+    # Основной цикл
+    
     while True:
         m = first.main_menu()
         if m == '1':
